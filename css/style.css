@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* { 
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}*/
+header{
+	background: rgba(0, 153, 204, 1);
+	padding-top: 0px;
+}
+#main-menu{
+    padding-top: 20px;
+   
+}
+#main-menu ul{
+	list-style-type: none;
+    padding-left: 300px;
+    z-index: 9999;
+	position: relative;
+
+}
+#main-menu li{
+	float:left;
+    font-size: 20px;
+   
+    
+}
+.clear{
+	clear: both;
+}
+#main-menu a{
+	text-decoration: none;
+	padding: 10px 15px;
+	color: #fffff0;
+	display: block;
+}
+#main-menu a:hover{
+	background: skyblue;
+	color:#0c090a;
+}
+#main-menu ul li ul{
+	position: absolute;
+	visibility: hidden;
+	padding-left: 0px;
+}
+#main-menu ul li ul li{
+	float:none;
+}
+#main-menu ul li:hover ul{
+	visibility: visible;
+
+	background:rgba(0, 153, 204, 0.5);
+}
+.head-design{
+    background-color:rgba(0, 153, 204, 1);
+   height: 67px;
+}
+
+header .logo {
+   position: relative;
+   height: 0 px;
+   width: 270px;
+   float: left;
+}
+
+header .logo a {
+   display: block;
+   padding: 0;
+   margin: 0;
+   height: 0px;
+   width: 0px;
+   line-height: 0px;
+
+   position: absolute;
+   left: 0px;
+   top: 0px;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+
+/*.site-name   h1 a{
+
+   font-size: 80px;
+   color: rgba(0, 153, 204, 1);
+  
+}*/
+
+section > #center-div{
+    position: absolute;
+    width: 700px;
+    height: 350px;
+    top:50%;
+    left: 50%;
+    margin-left: -350px;
+    margin-top: -175px;
+    
+   
+    
+    
+}
+
+section>#center-div>#logo{
+    position: relative;
+    height: 190px;
+    width: 100px;
+    left:10%;
+    top:60px;
+    font-size: 100px;
+    color:rgba(0, 153, 204, 1);
+    padding: 0;
+
+}
+
+footer>#nav-bottom{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    background: rgba(0, 153, 204, 0.8);
+    border-top: 1px solid #e4e4e4;
+
+}
+footer>#nav-bottom>#nav-bottom-note{
+    position: absolute;
+    width: 800px;
+    height: 20px;
+    font-weight: bold;
+    text-align: center;
+    left: 20%;
+    top: 50%;
+    margin-top: -10px;
+}
+
